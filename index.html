@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <!-- Método 1: Enlace directo a Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    
+    <!-- Cambio de estilos con diferentes CSS -->
+    <link id="stylesheet" rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Iniciar Sesión</h1>
+        <form>
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Entrar</button>
+        </form>
+        <button onclick="cambiarEstilo()">Cambiar Estilo</button>
+    </div>
+
+    <script>
+        function cambiarEstilo() {
+            let stylesheet = document.getElementById("stylesheet");
+            if (stylesheet.getAttribute("href") === "style1.css") {
+                stylesheet.setAttribute("href", "style2.css");
+            } else {
+                stylesheet.setAttribute("href", "style1.css");
+            }
+        }
+    </script>
+</body>
+</html>
