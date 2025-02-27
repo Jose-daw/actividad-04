@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Dancing Script",cursive;
     background-color: var(--primary-color);
     color: var(--text-color);
     text-align: center;
@@ -32,6 +32,9 @@ h1 {
 }
 
 label {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: italic;
     display: block;
     text-align: left;
     font-size: 14px;

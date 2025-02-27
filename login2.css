@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 350;
+    src: 
+    local("Noto Sans"),
+    url("../fonts/NotoSans-VariableFont_wdth,wght.ttf") format("truetype");
+}
 :root {
     --primary-color: #2ecc71;
     --secondary-color: #27ae60;
